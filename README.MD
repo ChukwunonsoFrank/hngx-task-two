@@ -1,6 +1,6 @@
 # HNGX Backend Task(Stage 2)
 
-👩‍💻 HNGX Backend Task 1 - A CRUD API that handles a person(user) resource
+👩‍💻 HNGX Backend Task 2 - A CRUD API that handles a person(user) resource
 
 ## Getting Started
 
