@@ -51,8 +51,6 @@ func main() {
 	}))
 
 	apiRouter := chi.NewRouter()
-	apiRouter.Get("/healthz", handlerReadiness)
-	apiRouter.Get("/error", handlerError)
 	apiRouter.Post("/", newAPIConfig.handlerCreateUser)
 	apiRouter.Get("/{user_id}", newAPIConfig.handlerFetchUser)
 	apiRouter.Put("/{user_id}", newAPIConfig.handlerUpdateUser)
