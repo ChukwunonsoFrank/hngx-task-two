@@ -16,7 +16,7 @@ cd hngx-task-two
 ```bash
 cp .env.example .env
 ```
-Ensure you have PostgreSQL installed on your local machine to be able to spin up a test database for the setup.
+NOTE: Ensure you have PostgreSQL installed on your local machine to be able to spin up a test database for the setup.
 
 ####  Start the server:
 
@@ -38,7 +38,7 @@ GET /api/{user_id} HTTP/1.1
 ```
 ```json
     {
-        "id": {user_id},
+        "id": "example_id",
         "name": "example_name"
     }
 ```
@@ -54,7 +54,7 @@ POST /api/{user_id} HTTP/1.1
 ```
 ```json
     {
-        "id": {user_id},
+        "id": "example_id",
         "name": "example_name"
     }
 ```
@@ -70,7 +70,7 @@ PUT /api/{user_id} HTTP/1.1
 ```
 ```json
     {
-        "id": {user_id},
+        "id": "example_id",
         "name": "new_example_name"
     }
 ```
@@ -82,7 +82,7 @@ DELETE /api/{user_id} HTTP/1.1
 ```
 ```json
     {
-        "id": {user_id},
+        "id": "example_id",
         "name": "example_name"
     }
 ```
@@ -92,5 +92,14 @@ DELETE /api/{user_id} HTTP/1.1
 As shown below, we are making a GET request with HTTPie API client but you can make use of any API testing tool available to you.
 
 #### Sample GET request
-![Sample GET request]()
+![Sample GET request](https://github.com/ChukwunonsoFrank/hngx-task-two/blob/main/assets/sample-get-request.jpg)
+
+#### Sample POST request
+![Sample POST request](https://github.com/ChukwunonsoFrank/hngx-task-two/blob/main/assets/sample-post-request.jpg)
+
+#### Sample PUT request
+![Sample PUT request](https://github.com/ChukwunonsoFrank/hngx-task-two/blob/main/assets/sample-put-request.jpg)
+
+#### Sample DELETE request
+![Sample DELETE request](https://github.com/ChukwunonsoFrank/hngx-task-two/blob/main/assets/sample-delete-request.jpg)
 
