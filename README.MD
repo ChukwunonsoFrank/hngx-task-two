@@ -105,3 +105,6 @@ As shown below, we are making a GET request with HTTPie API client but you can m
 #### Sample DELETE request
 ![Sample DELETE request](https://github.com/ChukwunonsoFrank/hngx-task-two/blob/main/assets/sample-delete-request.jpg)
 
+## Diagrams
+
+UML & E-R diagrams: https://lucid.app/lucidchart/90cbfc8a-aba0-4658-abdd-b532a48453a5/edit?viewport_loc=-888%2C-555%2C2560%2C1280%2C0_0&invitationId=inv_d6077e04-b7c9-4500-adb9-81d85ca18147
