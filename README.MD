@@ -20,6 +20,8 @@ NOTE: Ensure you have PostgreSQL installed on your local machine to be able to s
 
 ####  Start the server:
 
+Ensure you have installed the latest version of Go on your local machine before running the command below.
+
 ```bash
 go build && ./hng-task-two
 ```
